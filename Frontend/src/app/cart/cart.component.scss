@@ -14,3 +14,30 @@ img {
   margin-right: 5px;
   bottom: 0;
 }
+
+.totals
+{
+  display: inline;
+  display: flex;
+}
+
+.total
+{
+  color: green;
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.items
+{
+  font-size: small;
+}
+
+.checkout
+{
+  background-color: green;
+  color: white;
+  margin-top: 10px;
+  margin-left: 50px;
+}
