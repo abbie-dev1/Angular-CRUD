@@ -5,6 +5,12 @@ img {
   margin-left: 20px;
   border-radius: 10px;
 }
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .delete
 {
@@ -38,14 +44,6 @@ img {
 {
   background-color: green;
   color: white;
-}
-
-.view-image
-{
-  height: 100%;
-  width: 70%;
-  align-items: center;
-  position: relative;
 }
 
 
