@@ -9,9 +9,6 @@ export class ProductsService {
 
   url: string = "https://fakestoreapi.com/products/";
 
-  //URL used for search by category
-  urlcategory:string="https://fakestoreapi.com/products/categories";
-
   constructor(private http : HttpClient) { }
 
   getProduct()
@@ -20,11 +17,5 @@ export class ProductsService {
     .pipe(map((res:any)=>{
       return res;
     }))
-  }
-
-  //Use it only for search
-  getProductByCategory(category:any):Observable<any>
-  {
-    return this.http.get<any>(this.urlcategory+{category})
   }
 }
